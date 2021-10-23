@@ -1,0 +1,5 @@
+Credentials cache: API:DE8332ED-AD7D-4988-BB04-90EBB4673047
+        Principal: aeryilma@42KOCAELI.COM.TR
+
+  Issued                Expires               Principal
+Oct  3 07:41:48 2021  Oct  3 17:41:48 2021  krbtgt/42KOCAELI.COM.TR@42KOCAELI.COM.TR
