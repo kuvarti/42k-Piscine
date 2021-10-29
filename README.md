@@ -1,4 +1,4 @@
-### :dart: Ödev tablosu : :
+### :dart: Ödev tablosu :
 
 | Project | Tr | Eng | Solutions |
 |---     |---  |--- |---       |
