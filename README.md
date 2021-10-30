@@ -2,7 +2,7 @@
 
 | Project | Tr | Eng | Solutions |
 |---     |---  |--- |---       |
-| [BSQ]() | [tr] | [eng](https://github.com/kuvarti/42k-Piscine/blob/main/PDFs/EN_bsq.pdf) | Full Problem |
+| [BSQ](https://github.com/kuvarti/42k-Piscine/tree/main/BSQ) | tr | [eng](https://github.com/kuvarti/42k-Piscine/blob/main/PDFs/EN_bsq.pdf) | Full Problem |
 | [Shell00](https://github.com/kuvarti/42k-Piscine/tree/main/Shell00) | [tr](https://github.com/kuvarti/42k-Piscine/blob/main/PDFs/TR_Shell00.pdf) | [eng](https://github.com/kuvarti/42k-Piscine/blob/main/PDFs/EN_Shell00.pdf) | 10 Problems|
 | [Shell01](https://github.com/kuvarti/42k-Piscine/tree/main/Shell01) | [tr](https://github.com/kuvarti/42k-Piscine/blob/main/PDFs/TR_Shell01.pdf) | [eng](https://github.com/kuvarti/42k-Piscine/blob/main/PDFs/EN_Shell01.pdf) | 6 Problems|
 | [C00](https://github.com/kuvarti/42k-Piscine/tree/main/c00) | [tr](https://github.com/kuvarti/42k-Piscine/blob/main/PDFs/TR_C00.pdf) | [eng](https://github.com/kuvarti/42k-Piscine/blob/main/PDFs/EN_C00.pdf) | 8 Problems|
