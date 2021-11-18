@@ -56,5 +56,5 @@ Vim için : link bulursam eklicem ama şimdilik yok ^-^.
   ```find <Arama dizini> [opsiyon]``` klasörleri arar.
   * -name -> ```find . -name 'x'``` mevcut dizin ve altdizinlerde x isimli dosyayı arar. _(* kullanarak öncesinde veya sonrasında herhangi birşey olabilir diyebilirsiniz ör : '*.txt' sadece .txt ile biten dosyaları arar)_
   * -type -> ```find . -type``` mevcut dizin ve alt dizinlerde ```-type```dan sonra belirtilen türde dosyaları arar. ör : ```-type d``` sadece klasörleri arar. daha fazla bilgi için ```man find```
-  * -delete -> ```find . -delete``` bulduğu dosyaları siler.
-  * -print -> ```find . -print``` bulduğu _(sildiği)_ dosyaları yazdırır.
+  * -delete -> ```find . --delete``` bulduğu dosyaları siler.
+  * -print -> ```find . --print``` bulduğu _(sildiği)_ dosyaları yazdırır.
