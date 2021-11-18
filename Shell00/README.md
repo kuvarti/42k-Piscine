@@ -2,6 +2,10 @@
 
 Shell Piscine-42 yolundaki ilk adım, kampüse girip login olduktan sonra ilk yapmanız gereken ödev. Aynı zamanda çoğunlukla dosya gezinme aracı olarak(Examlar dahil) shell kullanıcaksınız Shell00'ı iyi bir şekilde anlayıp üstesinden gelirseniz daha az problem yaşarsınız.
 
+Çokça kullanacağınız bir editör (vim) birde sistem (git) var, Vim ve Git için link eklemeyi planlıyorum. Bunlar varsayılan olarak bildiğiniz kabul ediliyor çünkü.
+
+Git için : Yine kendi yaptığım [Git Cheatsheet](https://github.com/kuvarti/Learn-Any/blob/main/cheatsheets/git/git.md)'e bakabilirsiniz.
+
 ## **İşinize yarayacak komutlar**
 >### Dipnot:
 >Köşeli parantez '[]' içinde yazılan yerler yazılması zorunlu olmayan, isteğe bağlı alanlardır.
@@ -24,22 +28,32 @@ Shell Piscine-42 yolundaki ilk adım, kampüse girip login olduktan sonra ilk ya
   * -U -> ```ls -U``` '-t' veya '-l' için son değişiklik  yerine dosya oluşturma zamanını kullanır.
 * ### chmod
   ```chmod [opsiyon] file``` dosyanın izinlerini değiştirir. Opsiyonu 2 şekilde ayarlayabiliriz. Öncelikle izinleri ```ls -l``` ile görebiliriz.Şu formatta olur ```-rw-rw-r-x 1 kuvarti kuvarti   7 Nov 12 02:21 M2.txt``` baştaki **R**, **W** ve **X** bulunduran alan izinlerdir. ilk baştaki - karakteri dosyanın tipini belirler. Sonraki 3 **RWX** Owner için, ortadaki 3 **RWX** Group için, sonraki 3 **RWX** Other(Everyone) için izinleri belirler. bunları belirlemek için;
+
+	|İzin|Simge|
+	|:-|-:|
+	|R(read)|R|
+	|W(write)|W|
+	|X(execute)|X|
+
   * **1 Grup adını kullanma**
+\
+  Basitçe U=Owner, G=Group, veya O=Other(Everyone) + veya - ile birlikte vermek/çıkarmak istediğimiz izinleri belirleriz. ör : ```chmod g+x file``` ile group için dosyaya execute izni veririrz.
+  * **2 Numaraları kullanma**(Eğlenceli olan yol)
+\
+  İzinleri sırasıyla digit olarak numaralandırırız;
+	|İzin|Değeri|
+	| :- | -: |
+	|X	|$2^0$=1|
+	|W	|$2^1$=2|
+	|R	|$2^2$=4|
 
-vim dosya-ismi
-Vim ile dosyalarınızın içeriğini düzenleyebilirsiniz. Bu komutu bütün piscine boyunca kullanacaksınız o yüzden internetten ayrıntılı bir klavuza bakmak sizin için iyi olabilir.
-
-chmod
-genel olarak dosya izinlerini değiştirmek için kullanılır. 3 bit ile çalışır. ör:
-chmod 741 x
-yazarsanız çıktı şu olur;
--rwxr----x
-
-git log
-git loglarınızı gösterir. Commitleriniziz ismi, tarihi gibi detaylarıda içerir.
-
-.gitignore
-Esasında bir git dosyasıdır. Git in dikkate almasını istemediğimiz dosyaları içine yazarız.
+	Sonra bu numaraları toplayarak hangi izinleri vermek istediğimizi belirleriz ör : ```chmod 744 file``` ile ```-rwxr-xr-x``` izinlerini veririz. sadece W ve R yetkisi için mesela 6 yazmalıyız vs..
+* ### Git Komutları
+  Git komutlarını 0dan anlatmama gerek yok. sizden git kullanmanızı isteyen sorular için kendi yaptığım [Git Cheatsheet](https://github.com/kuvarti/Learn-Any/blob/main/cheatsheets/git/git.md) dosyasına bakıp oradan sadece alakalı kısımları okuyarak bilmeniz gerekenleri öğrenebilirsiniz
+* ### find
 
 find
 Belirli bir dosyayı daha kolay bulmaya yarayan bir komuttur. RTFM
+
+vim dosya-ismi
+Vim ile dosyalarınızın içeriğini düzenleyebilirsiniz. Bu komutu bütün piscine boyunca kullanacaksınız o yüzden internetten ayrıntılı bir klavuza bakmak sizin için iyi olabilir.
