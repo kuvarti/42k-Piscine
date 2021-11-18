@@ -6,6 +6,8 @@ Shell Piscine-42 yolundaki ilk adım, kampüse girip login olduktan sonra ilk ya
 
 Git için : Yine kendi yaptığım [Git Cheatsheet](https://github.com/kuvarti/Learn-Any/blob/main/cheatsheets/git/git.md)'e bakabilirsiniz.
 
+Vim için : link bulursam eklicem ama şimdilik yok ^-^.
+
 ## **İşinize yarayacak komutlar**
 >### Dipnot:
 >Köşeli parantez '[]' içinde yazılan yerler yazılması zorunlu olmayan, isteğe bağlı alanlardır.
@@ -51,9 +53,8 @@ Git için : Yine kendi yaptığım [Git Cheatsheet](https://github.com/kuvarti/L
 * ### Git Komutları
   Git komutlarını 0dan anlatmama gerek yok. sizden git kullanmanızı isteyen sorular için kendi yaptığım [Git Cheatsheet](https://github.com/kuvarti/Learn-Any/blob/main/cheatsheets/git/git.md) dosyasına bakıp oradan sadece alakalı kısımları okuyarak bilmeniz gerekenleri öğrenebilirsiniz
 * ### find
-
-find
-Belirli bir dosyayı daha kolay bulmaya yarayan bir komuttur. RTFM
-
-vim dosya-ismi
-Vim ile dosyalarınızın içeriğini düzenleyebilirsiniz. Bu komutu bütün piscine boyunca kullanacaksınız o yüzden internetten ayrıntılı bir klavuza bakmak sizin için iyi olabilir.
+  ```find <Arama dizini> [opsiyon]``` klasörleri arar.
+  * -name -> ```find . -name 'x'``` mevcut dizin ve altdizinlerde x isimli dosyayı arar. _(* kullanarak öncesinde veya sonrasında herhangi birşey olabilir diyebilirsiniz ör : '*.txt' sadece .txt ile biten dosyaları arar)_
+  * -type -> ```find . -type``` mevcut dizin ve alt dizinlerde ```-type```dan sonra belirtilen türde dosyaları arar. ör : ```-type d``` sadece klasörleri arar. daha fazla bilgi için ```man find```
+  * -delete -> ```find . -delete``` bulduğu dosyaları siler.
+  * -print -> ```find . -print``` bulduğu _(sildiği)_ dosyaları yazdırır.
