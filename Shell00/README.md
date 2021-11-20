@@ -6,11 +6,13 @@ Shell Piscine-42 yolundaki ilk adım, kampüse girip login olduktan sonra ilk ya
 
 Git için : Yine kendi yaptığım [Git Cheatsheet](https://github.com/kuvarti/Learn-Any/blob/main/cheatsheets/git/git.md)'e bakabilirsiniz.
 
-Vim için : link bulursam eklicem ama şimdilik yok ^-^.
+Vim için : Bir arkadaşımın hazırladığı [Vim Cheatsheet](https://github.com/cryonayes/VIM-Tutorial/blob/main/README.txt)'e bakabilirsiniz.
 
 ## **İşinize yarayacak komutlar**
 >### Dipnot:
 >Köşeli parantez '[]' içinde yazılan yerler yazılması zorunlu olmayan, isteğe bağlı alanlardır.
+>
+> -o : or(veya) anlamına gelir.
 
 * ### man
   Bilmeniz gereken en önemli komut ```man```. ```man <x>``` _(x yerine herhangi bir başka komut)_ yazarsanız o komutun kılavuzuna bakabilirsiniz.
