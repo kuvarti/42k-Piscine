@@ -17,8 +17,9 @@ C00 ile C programlaya giriş yapıyorsunuz. Buradan sonra algorima kurmaya ve ko
 		```
 	* char(character) -> Karakterleri tutar. 1 byte yer kaplar.
 		```c
-		char a;		//min degeri 0
-		a = 'a';	//max degeri 255
+		char a;		//min degeri -127
+		a = 'a';	//max degeri 127
+		// unsigned char 0 - 255
 		```
 	* float(floating point) -> Ondalık sayıları tutar. 4 byte yer kaplar.
 		```c
