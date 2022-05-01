@@ -1,3 +1,6 @@
+[![aeryilma's 42 stats](https://badge42.vercel.app/api/v2/cl2clcq4c016009l8uaoijwh3/stats?cursusId=9&coalitionId=undefined)](https://github.com/JaeSeoKim/badge42)
+
+
 ### :dart: Ödev tablosu :
 
 | Project | Tr | Eng | Solutions |
